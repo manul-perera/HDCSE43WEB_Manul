@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <p id="demo8"></p>
+
+    <script>
+        // create a object
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            eyecolor: "blue"
+        };
+
+        console.log("my person object", person);
+        console.log("my person object", person.eyecolor);
+
+        document.getElementById("demo8").innerHTML = person.firstName + " is " + person.age + " year old.";
+    </script>
+</body>
+</html>
